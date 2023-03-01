@@ -1,0 +1,154 @@
+section {
+    margin-bottom: 2%;
+}
+
+.logobox {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px;
+}
+
+.header {
+    text-align: center;
+    color: #2f9b97;
+}
+
+.dropdown {
+    color: #2f9b97;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerbox {
+    margin-bottom: 5%;
+}
+
+.btm {
+    display: flex;
+    justify-content: center;
+}
+
+.sub {
+    background-color: #2f9b97;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.sub2 {
+    background-color: #144272;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.tab-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #BFEAF5;
+    padding: 5% 0 5% 0;
+}
+
+#sectionIIform {
+    background-color: black;
+    color: #FFF;
+}
+
+
+.part3 {
+    margin-bottom: 0;
+    padding: 4%;
+    background-color: #B4E4FF;
+}
+
+.sliders {
+    padding: 2%;
+}
+
+footer {
+    height: 30vh;
+    background-color: #144272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px;
+    margin-bottom: 75px;
+    /* room for dot controls */
+}
+
+
+.next,
+.prev {
+    /* to force everything on the same row */
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+
+
+.controls {
+
+    /* any centered section of columns */
+
+    position: relative;
+    text-align: center;
+    top: calc(100% - 60px);
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 4px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border: none;
+}
+
+.dot.active {
+    background-color: white;
+}
+
+
+/* just styling */
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-self: auto;
+    font-family: sans-serif;
+}
